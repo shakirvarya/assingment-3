@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dynamic Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn1 {
+            background-color: #34db4a;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<form action="https://formsubmit.co/shakirvarya@email.com" method="POST">
+<body>
+    <div class="container">
+        <center>
+            <h1>Dynamic Form</h1>
+        </center><br><br>
+        <form action="#" method="post">
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Shakir"><br><br>
+
+            <label for="name">Last Name:</label>
+            <input type="text" id="lastname" name="Last" required placeholder="Varya"><br><br>
+
+            <label for="email">Email Add:</label>
+            <input type="email" id="email" name="email" required placeholder="shakirvarya@gmail.com"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Password"><br><br>
+
+            <label for="phone">Mobile:</label>
+            <input type="tel" id="phone" name="phone" placeholder="0321-2170930"><br><br>
+
+            <label for="Gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="">-Select Gender-</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="address">Address:</label>
+        <input required type="text" id="address" name="address" placeholder="Karachi Pakistan"><br><br>
+
+            <button type="submit" class="btn"><i class="icon fas fa-paper"></i> Submit</button>
+            <button type="reset" class="btn1"><i class="icon1 fa fa-refresh"></i> Reset</button>
+        </form>
+
+</form>
+</body>
+</html>
